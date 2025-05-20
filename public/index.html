@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midjourney Vary Region</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <div id="canvasContainer">
+                <canvas id="imageCanvas"></canvas>
+                <canvas id="maskCanvas"></canvas>
+            </div>
+        </div>
+        <div class="controls">
+            <textarea id="maskBase64" readonly placeholder="Base64 mask will appear here..."></textarea>
+            <button id="submitButton" class="button">Base64 다운로드</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
